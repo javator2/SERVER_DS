@@ -14,7 +14,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         int portNumber = 5555;
-        System.out.println("Slucham na porcie: " + portNumber);
+        System.out.println("Słucham na porcie: " + portNumber);
 
         ServerSocket serverSocket = new ServerSocket(portNumber);
 
